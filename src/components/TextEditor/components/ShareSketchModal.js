@@ -34,8 +34,8 @@ const ShareSketchModal = (props) => {
     );
   };
 
-  return (
-    <ReactModal
+return ( <ReactModal
+    
       className="modal-md"
       overlayClassName="modal-overlay"
       isOpen={showModal}
@@ -58,5 +58,6 @@ const ShareSketchModal = (props) => {
     </ReactModal>
   );
 };
+
 
 export default ShareSketchModal;
