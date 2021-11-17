@@ -17,7 +17,7 @@ import '../../../styles/Modals.scss';
  *  toggleModal function that toggles the modal's render state
  *  shareUrl the URL to display/copy to clipboard
  */
-const ShareSketchModal = (props) => {
+const ShareSketchModal = function (props) {
   const { shareUrl, showModal, toggleModal } = props;
   const [str, setStr] = useState([{ copyStatus: 'Hit "Copy to Clipboard"!' }]);
 
